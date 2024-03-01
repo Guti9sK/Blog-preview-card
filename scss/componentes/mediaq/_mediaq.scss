@@ -1,0 +1,27 @@
+@media screen and (max-width: 525px) {
+  .header {
+    &__btn {
+      padding: 8px 12px;
+      font-size: 3vmin;
+    }
+
+    p {
+      font-size: 3vmin;
+    }
+  }
+  .main {
+    h1 {
+      white-space: nowrap;
+      font-size: 6vmin;
+    }
+    p {
+      font-size: 4vmin;
+    }
+  }
+
+  .footer {
+    h3 {
+      font-size: 4vmin;
+    }
+  }
+}

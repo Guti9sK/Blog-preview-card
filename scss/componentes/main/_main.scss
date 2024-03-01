@@ -1,0 +1,21 @@
+@use "../variables/variables" as *;
+
+.main {
+  width: 90%;
+  margin: 1em 0;
+
+  h1 {
+    margin-bottom: 0.5em;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-weight: 800;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+  p {
+    font-size: $fs;
+    color: $grey;
+  }
+}

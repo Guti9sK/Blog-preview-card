@@ -1,0 +1,33 @@
+@use "../variables/variables" as *;
+
+.header {
+  width: 90%;
+  min-height: 100%;
+
+  &__img {
+    margin-top: 2em;
+
+    img {
+      width: 100%;
+      aspect-ratio: 112/67;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+      margin-bottom: 1em;
+    }
+  }
+
+  &__btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: $yellow;
+    font-weight: 800;
+    font-size: $fs;
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: $fs;
+  }
+}

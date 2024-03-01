@@ -1,0 +1,22 @@
+@use "../variables/variables" as *;
+
+.footer {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+
+  &__img {
+    img {
+      width: 40px;
+      object-fit: cover;
+      aspect-ratio: 64/65;
+    }
+  }
+
+  h3 {
+    font-weight: 800;
+  }
+}
